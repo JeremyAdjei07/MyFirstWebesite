@@ -1,0 +1,93 @@
+body{
+    background-image: url(images/akatsuki\ logo.gif);
+    background-color: black;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+
+nav{
+    color: white;
+    padding: 5px;  
+    text-align: center;
+    justify-content: space-around;
+    display: flex; 
+}
+
+.items:hover {
+    background-color: rgb(144,32,32);
+    opacity: 0.5;
+ }
+ 
+
+.image{
+    justify-content: center;
+    display:flex;
+    margin-top: 20px;
+}
+
+.AboutMe{
+    justify-content: center ;
+    display:flex;
+}
+
+#header{
+    justify-content: center;
+    display: flex;
+}
+
+.AboutMe{
+    margin-left: 650px;
+    margin-right: 600px;
+}
+
+
+#header2{
+    justify-content: flex-start;
+    display: flex;
+    margin-right: 1500px;
+    margin-top: 290px;
+
+    background-color: black;
+
+}
+
+.Tiltd{
+    justify-content: flex-start;
+    display: flex;
+    background-color: black;
+    margin-right: 960px;
+}
+
+#list{
+    justify-content: center;
+    display: flex;
+    margin-right: 900px;
+
+}
+
+#header3{
+    justify-content: flex-end;
+    display: flex;
+    background-color: black;
+    margin-top: 680px;
+}
+
+
+.School{
+    justify-content: flex-end;
+    display: flex;
+    margin-left: 800px;
+    
+    background-color: black;
+}
+
+
+footer{
+    background-color: black;
+    margin-top: 910px;
+    margin-left: 350px;
+    margin-right: 300px;
+    text-align: center;
+}
